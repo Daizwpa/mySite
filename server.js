@@ -8,7 +8,7 @@ const express = require('express');
 const path    = require('path');
 const morgan  = require('morgan');
 const fs      =  require('fs');
-const port    = 8080;
+const port    = process.env.PORT || 8080;
 
 
 
