@@ -1,0 +1,17 @@
+footer{
+    background-color: #191c18 ;
+    
+}
+.footer-icon {
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.footer-icon .fab{
+    margin: 10px;
+    font-size: 20pt;
+    color:aliceblue;
+    
+}
+

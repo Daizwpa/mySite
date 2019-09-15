@@ -1,0 +1,209 @@
+body{
+    background: url(./../image/background3.jpg);
+    background-size: 100% 700px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.fasl{
+    display: block;
+    
+    width: 90%;
+    height: 100px;
+    margin-left: 5%;
+    
+}
+.home-container{
+    display: block;
+    
+    width: 100%;
+    height: 500px;
+    
+    
+
+    
+}
+
+
+
+.icon-container{
+    display: block;
+    width: 5%;
+    height: 100%;
+    float: left;
+    
+}
+.box-icon{
+    
+    margin-top: 250px;
+    margin-left: 5px;
+
+}
+.box-icon .fab{
+    font-size: 20pt;
+    color:aliceblue;
+    width: 50px;
+    margin-top: 10px;
+}
+
+
+.short-info{
+    
+    float: right;
+    width: 95%;
+    height: 100%;
+}
+.short-info-container{
+    position: relative;
+    width: 500px;
+    top:150px;
+    left: 400px;
+}
+.title{
+    letter-spacing: 25px;
+}
+
+
+.body, .title{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 24pt;
+    text-align: justify;
+    color: white;
+}
+.read-more{
+    
+    text-align: center;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 24pt;
+    color: white;
+}
+.down{
+    
+    display: flex;
+    justify-content: center;
+
+}
+.down i{
+    padding-top: 5px;
+    font-size: 40pt;
+    color: aliceblue;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    0% {
+            color: aliceblue;
+            transform: translateY(-15px);
+       }
+    50% {
+            color: #4a6e3f;
+            transform: translateY(0px);
+        }
+    100%{
+            color: aliceblue;
+            transform: translateY(-15px);
+        }
+}
+.cv{
+    display: block;
+    width: 100%;
+    height: 400px;
+    
+    margin-top: 6px;
+    background-color: #111314;
+    
+    
+}
+
+
+.cv-image{
+    background-color: #111314;
+    width: 30%;
+    float: left;
+    height: 100%;
+    border-right: 2px  solid #4a6e3f;
+
+    
+    
+}
+.cv-image img{
+    height: 70%;
+    width: 70%;
+    border: 1px solid;
+    border-radius: 400px;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.cv-body{
+    
+    
+    width: 69%;
+    float: right;
+    height: 100%;
+
+}
+.cv-body-container{
+    width: 800px;
+
+}
+.cv-tilte , .cv-body-content{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 24pt;
+    text-align: justify;
+    color: white;
+}
+.cv-body-content{
+   margin: 50px;
+   font-size: 22pt;
+
+}
+
+.github{
+    background-color: white;
+    width: 100%;
+    height: 320px;
+}
+.Popular-Projects{
+    margin: 50px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 24pt;
+    
+    color: black;
+
+}
+.table{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 20pt;
+    text-align: justify;
+    color: #111314;
+    display: flex;
+    justify-content: center;
+}
+.table-content{
+    
+    display: flex;
+    justify-content: center;
+}
+.tr{
+    
+    
+    margin: 0;
+    border: 0;
+
+    
+}
+.th{
+    padding: 20px;
+    padding-right: 20px;
+    border-top: 2px solid #111314 ;
+    
+}
+.td{
+    border-top: 1px dashed #111314 ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+}
